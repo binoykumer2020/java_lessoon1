@@ -8,7 +8,6 @@ public class PolyRunRectangle extends PolyRunGeomatry {
 
         this.height = height;
         this.length = length;
-
     }
 
     @Override

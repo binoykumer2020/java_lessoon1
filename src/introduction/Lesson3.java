@@ -12,33 +12,34 @@ public class Lesson3 {
 
     public static void main(String[] args) {
 
-       /*
-        int number [] = {12,23,34,45}; // One dimentional array
 
-        System.out.println(number[0]);
+        int number [] = {12,23,34,45,6}; // One dimentional array
+
+
+       // System.out.println(number[0]); // printing an index value
 
         for (int i = 0; i < number.length; i++) {
-            System.out.println(number[i]);
-            System.out.println("\n\n"); // 2 lines break
-        }
-        */
 
+            System.out.println(number[i]);
+
+
+          //  System.out.println("\n\n"); // 2 lines break
+        }
 
         // two dimentional array
 
-        /*
-        int num [][] = {{100,200,300,400,500},{111,222,333,444,555}};
+
+       int num [][] = {{100,200,300,400,500},{111,222,333,444,555}};
 
         for (int i = 0; i <5 ; i++) {
-            System.out.println();
-            for (int j = 0; j < 5; j++) {
 
+            for (int j = 0; j < 5; j++) {
+                System.out.print(" ");
                 System.out.print(num[i][j]);
             }
             System.out.println(" ");
-
         }
-        */
+
 
         /*
         int [] num = new int[5];

@@ -1,6 +1,7 @@
 package core;
 
 public class ReturningValueFromMethod {
+
     int square (int value){
         return value*value;
     }
@@ -10,8 +11,9 @@ public class ReturningValueFromMethod {
     }
 
     double circle (double radius){
-        return (22/7 * radius * radius);
+        return (3.1467 * radius * radius);
     }
+
 
     public static void main(String[] args) {
         ReturningValueFromMethod ob1 = new ReturningValueFromMethod ();
@@ -20,5 +22,6 @@ public class ReturningValueFromMethod {
         System.out.println(ob1.triangle(78,6));
         System.out.println(ob1.circle(2.1));
     }
+
 
 }

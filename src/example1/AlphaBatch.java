@@ -10,7 +10,8 @@ public class AlphaBatch extends CoreQA {
     }
 
 
-    AlphaBatch(String name, String level, int age, int mobileNumber) {
+    AlphaBatch(String name, String level, int age, int mobileNumber)
+    {
         super(name, level, age, mobileNumber);
     }
 
@@ -21,6 +22,5 @@ public class AlphaBatch extends CoreQA {
         super.displayInformation(); // super keyword
         System.out.println(" Student age : "+ getAge());
         System.out.println( " Student mobile no : "+ mobileNumber);
-
     }
 }

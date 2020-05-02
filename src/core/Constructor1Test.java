@@ -17,8 +17,9 @@ public class Constructor1Test {
         System.out.println();
 
         Constructor1 ob4 = new Constructor1("Tesco", "Birmingham", 134.67);
-        ob4.display();
-        ob4.methodTest("Sainsburys", "Manchester");
+        //ob4.display();
+        //ob4.methodTest("Sainsburys", "Manchester");
+
 
 
 

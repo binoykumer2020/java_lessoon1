@@ -7,7 +7,6 @@ public class PolyRunTriangle extends PolyRunGeomatry {
     PolyRunTriangle(double base, double height ){
         this.height = height;
         this.base = base;
-
     }
 
     @Override

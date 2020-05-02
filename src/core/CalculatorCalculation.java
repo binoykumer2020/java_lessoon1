@@ -2,9 +2,9 @@ package core;
 
 public class CalculatorCalculation {
 
-    double num1 = 0;
-    double num2 = 0;
-    double num3 = 0;
+    double num1 ;
+    double num2 ;
+    double num3 ;
 
 
     void addition ( ){

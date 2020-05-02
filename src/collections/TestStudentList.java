@@ -3,6 +3,7 @@ package collections;
 import java.util.LinkedList;
 
 public class TestStudentList {
+
     public static void main(String[] args) {
 
         LinkedList <StudentList> list = new LinkedList<StudentList>();
@@ -21,13 +22,8 @@ public class TestStudentList {
         list.add(ob5);
         list.add(ob6);
 
-
-
         for (StudentList student : list) {
             System.out.println(student.id +  " " + student.names + " " +student.courseName);
-
         }
-
     }
-
 }

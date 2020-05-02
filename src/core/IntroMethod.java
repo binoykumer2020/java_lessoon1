@@ -1,7 +1,7 @@
 package core;
 
 // Introduction to Methods
-// Paramatarised methods
+// Parametarised methods
 
 public class IntroMethod {
 
@@ -20,7 +20,7 @@ public class IntroMethod {
             System.out.println(" Product name : " + productName );
             System.out.println(" Product price : " +productPrice);
             System.out.println(" Product ID : " +productId);
-            System.out.println("");
+            System.out.println(" ");
         }
     }
 

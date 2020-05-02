@@ -7,6 +7,8 @@ public class PolyRunSquare extends PolyRunGeomatry {
     PolyRunSquare ( double side){
         this.side = side;
     }
+
+
     @Override
     double area (){
         System.out.print(" Area of the square: ");

@@ -1,6 +1,6 @@
 package OOPs1;
 
-public class EncapFruit {
+class EncapFruit {
 
     String fruitName ;
     private double fruitPrice;

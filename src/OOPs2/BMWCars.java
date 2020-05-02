@@ -1,15 +1,23 @@
 package OOPs2;
 
 public class BMWCars extends Cars {
+
     String carsSeries;
 
+    BMWCars(String carsModel, double carsPrice, String carsColour, String carsMade, String carsSeries) {
+        super(carsModel, carsPrice, carsColour, carsMade);
+        this.carsModel = carsModel;
+        this.carsPrice = carsPrice;
+        this.carsColour = carsColour;
+        this.carsMade = carsMade;
+        this.carsSeries = carsSeries;
+
+    }
+
     @Override
-    void displayInformation() { // child methods override parent's method
-        System.out.println(" Cars model Name :" +carsModel);
-        System.out.println(" Cars series no : "+carsSeries);
-        System.out.println(" Cars Price : " +  "£ " +carsPrice);
-        System.out.println(" Cars Colour design : "+ carsColour);
-        System.out.println(" Cards made in from : "+carsMade);
+     void displayInformation() { // child methods override parent's method
+        super.displayInformation();
+        System.out.println(" Cars series :" + carsSeries);
     }
 }
 

@@ -10,6 +10,13 @@ public class Cars {
     String carsColour;
     String carsMade;
 
+    Cars (String carsModel, double carsPrice, String carsColour, String carsMade){
+        this.carsModel = carsModel;
+        this.carsPrice = carsPrice;
+        this.carsColour = carsColour;
+        this.carsMade = carsMade;
+    }
+
     void displayInformation ( ){
         System.out.println(" Cars model Name :" +carsModel);
         System.out.println(" Cars Price :" + carsPrice);

@@ -5,7 +5,7 @@ public class InheritanceUKform extends  InheritanceFormTemplate {
 
     int mobileNumber;
 
-    static String country = "United Kingdom";
+    static String country = "United Kingdom";  // its a good example of static variable
 
     void displayUKformInformation ( ){
         displayTemplateInformation();

@@ -5,8 +5,6 @@ public class VarArgs1 {
     void addMethod (int x, int y){
 
         System.out.println(x+y);
-
-        return;
     }
 
     void addition (int ... numbers){

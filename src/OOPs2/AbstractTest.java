@@ -8,14 +8,19 @@ public class AbstractTest {
 
         // only we can create some reference var/ refer to sub class object polymorphism
 
-        AbstractBankAccountProperty basic, advance;
+        AbstractBasic b1 = new AbstractBasic();
+        b1.cashDeposits();
+        b1.cashWithdrawal();
 
-        basic= new AbstractBasic();
-        basic.cashDeposits();
 
-        advance = new AbstractAdvance();
-        advance.cashDeposits();
-        advance.cashWithdrawal();
+//        AbstractBankAccountProperty basic, advance;
+//
+//        basic= new AbstractBasic();
+//        basic.cashDeposits();
+//
+//        advance = new AbstractAdvance();
+//        advance.cashDeposits();
+//        advance.cashWithdrawal();
 
 
 

@@ -20,8 +20,5 @@ public class IntroMethodTest {
 
         ob2.displayInformation();
 
-
-
-
     }
 }

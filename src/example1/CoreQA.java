@@ -7,6 +7,7 @@ package example1;
 // Encapsulation and Inheritance concepts should be used as well
 // run the program from a test class with main method
 // final keyword
+// super keyword
 
 
 
@@ -33,7 +34,7 @@ public class CoreQA {
         System.out.println("*********************");// this is an example of final method which can be inherited but not override
     }
 
-    CoreQA( String name, String level, int age){
+    CoreQA ( String name, String level, int age){
          // parameterised constructor with this keyword
         this.name = name;
         this.level = level;

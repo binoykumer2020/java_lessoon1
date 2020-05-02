@@ -34,4 +34,6 @@ public class Encapsulation {
     public void setFruitExport(String fruitExport) {
         this.fruitExport = fruitExport;
     }
+
+
 }

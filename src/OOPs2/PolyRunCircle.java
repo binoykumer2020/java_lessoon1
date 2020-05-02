@@ -3,15 +3,16 @@ package OOPs2;
 public class PolyRunCircle extends PolyRunGeomatry {
 
 
-    double radius;
+    double radius; // instance var --> constructor
 
-    PolyRunCircle (double radius){
-        this.radius = radius;
-    }
+    // create a constructor
+    PolyRunCircle (double radius)
+    { this.radius = radius; }
 
     @Override
     double area (){
         System.out.print(" Area of the circle : ");
-        return (22/7 * radius*radius);
+        return (3.1489 * radius*radius);
+
     }
 }
